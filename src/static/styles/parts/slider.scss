@@ -1,0 +1,152 @@
+/* slider */
+
+.slaider {
+    padding-top: 0px;
+}
+
+.slaider__wrap {
+    box-sizing: border-box;
+    display: flex;
+    max-width: 1290px;
+    max-height: 438px;
+    background-color: #181717;
+    position: relative;
+}
+
+.slaider__image {
+    width: 630px;
+    height: 438px;
+    background-image: url("../src/static/img/machu-picchu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.slider-content__wrap {
+    max-width: 660px;
+}
+
+.slider-content__title {
+    font-family: 'Rubik One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.slider-content__discription {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 30px;
+    max-width: 436px;
+}
+
+
+
+.slider-content__category {
+    width: 145px;
+    height: 40px;
+    background-color: #252222;
+    color: #0B972A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;  
+}
+
+
+
+.slider-content__text {
+    border-left: 4px solid #0B972A;
+    padding-left: 30px;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 401px;
+}
+
+
+.slider-content-btn div {
+    display: flex;
+}
+
+.slider-content-btn a {
+    display: block;
+    padding-left: 30px;
+    margin-right: 40px;
+}
+
+
+.slider-content-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 86px;
+    margin-left: 30px;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+.slider-content-btn__like {
+    display: block;
+    width: 16px;
+    height: 18px;
+    cursor: pointer;
+    background: url("../src/static/img/icon/wpf_like\ \(1\).png") no-repeat;
+    background-position: start;
+
+}
+
+.slider-content-btn:hover {
+    background: url("../src/static/img/icon/wpf_like.png") no-repeat;
+}
+
+
+.slider-content-btn__comment {
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url("../src/static/img/icon/comment.svg") no-repeat;
+    background-position: start;
+}
+
+.slider-content-btn__comment:hover {
+    background: url("../src/static/img/icon/fluent_comment-24-filled.svg") no-repeat;
+    color: #0B972A;
+}
+
+.slider-content-btn__read {
+    background-color: #0B972A;
+    width: 190px;
+    height: 60px;
+    position: absolute;
+    right: 0px;
+    top: 86%;
+    color: #FFFFFF;
+    }
+
+
+.slider-pagination-list {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slider-pagination-list__item {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #181717;
+}
+
+.slider-pagination-list__item:first-child {
+    background-color:#0B972A;
+}

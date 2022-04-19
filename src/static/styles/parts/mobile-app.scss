@@ -1,0 +1,56 @@
+/* mobilw app */
+
+.mobile-app__content {
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-app__title {
+    font-family: 'Rubik One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+    max-width: 530px;
+}
+.mobile-app__discription {
+    max-width: 633px;
+    
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.mobile-app__text a  {
+    text-decoration: underline;
+    color: #0B972A;
+}
+
+.mobile-app-btn {
+    display: flex;
+    gap: 30px;
+    margin-top: 52px;
+}
+
+.mobile-app-btn__link:hover {
+    background: url("../src/static/img/icon/Vector\ 3.png") no-repeat;
+    background-color: #0B972A;
+    background-position: 90%;
+
+}
+
+.mobile-app-btn__link img:hover {
+    padding-right: 20px;
+}
+
+.mobile-app-btn__link {
+    display: flex;
+    width: 190px;
+    height: 60px;
+    background: #0B972A;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,155 @@
+/* header */
+
+.header-top {
+    max-height: 126px;
+    border-bottom: 2px solid rgba(255, 255, 255, .05);
+    padding-bottom: 8px;
+}
+
+.header-top__wrap {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-top-logo {
+    margin-right: auto;
+}
+
+.header-top-right { 
+    display: flex;
+    
+}
+
+.header-top-right__btn {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+
+
+.header-top-right__login { 
+    width: 190px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #252222;
+}
+
+.header-top-right__login:hover {
+    background-color: #0B972A;
+}
+
+.header-top-right__subscribe {
+    width: 190px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0B972A;
+    margin-right: 30px; 
+    background: #252222;
+    cursor: pointer;
+}
+
+.header-top-right__subscribe:hover {
+    background-color: #0B972A;
+}
+
+
+.heder-top-right-menu-hidden {
+    display: none;
+}
+
+
+/* header-nav */
+
+.header-nav__wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.header-nav-menu__list {
+    display: flex;
+    margin-top: 30px;
+}
+.header-nav-menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 50px;
+    border-right: 2px solid rgba(255, 255, 255, .05);
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.header-nav-menu__item:hover {
+    text-decoration: underline;
+}
+
+.header-nav-menu__item:active {
+    color: #0B972A;
+}
+
+
+.header-nav-menu__item:first-child {
+    padding-left: 0px;
+}
+
+.header-nav-menu__item:last-child {
+    border-right: 0px;
+    padding-right: 0px;
+}
+
+
+.header-nav-search {
+    margin-top: 22px;
+}
+
+.header-nav-search__btn-hidden {
+    display: none;
+}
+
+.header-nav-search__form {
+    border: none;
+    display: flex;
+    position: relative;
+}
+
+
+.header-nav-search__input {
+    width: 410px;
+    box-sizing: border-box;
+    padding: 17px 55px;
+    height: 60px;
+    background-color: #181717;
+    border: none; 
+    color: #FFFFFF;
+}
+
+.header-nav-search__input:focus::placeholder {
+    opacity: 0;
+    
+}
+
+.header-nav-search__btn {
+    background: url("../src/static/img/icon/search.png");
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 20px;
+    opacity: 0.3;
+
+}

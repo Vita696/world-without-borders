@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Circe';
+    src: local('Circe-Regular'),
+    url("../src/static/fonts/Circe/Circe-Regular.woff2") format("woff2"),
+    url("../src/static/fonts/Circe/Circe-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: local('Circe-Regular'),
+    url("../src/static/fonts/Circe/Circe-Bold.woff2") format("woff2"),
+    url("../src/static/fonts/Circe/Circe-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: 'Circe';
+    src: local('Circe-Regular'),
+    url("../src/static/fonts/Circe/Circe-Light.woff2") format("woff2"),
+    url("../src/static/fonts/Circe/Circe-Light.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik One';
+    src: local('RubikOne-Regular'),
+    url("../src/static/fonts/RubikOne/RubikOne-Regular.woff2") format("woff2"),
+    url("../src/static/fonts/RubikOne/RubikOne-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

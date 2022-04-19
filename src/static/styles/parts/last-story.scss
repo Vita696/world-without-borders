@@ -1,0 +1,249 @@
+/* last-story */
+
+
+.last-story {
+    padding-top: 0px;
+    border-bottom: 2px solid rgba(255, 255, 255, .05);
+}
+
+.last-story-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+
+.last-story-title__show-all {
+    color: #0B972A;
+    background: url("../src/static/img/icon/Frame\ 24.png") no-repeat;
+    padding-right: 20px;
+    padding-top: 10px;
+    display: block;
+    background-position: 95%; 
+}
+
+.last-story-title__show-all:hover {
+    background-position: 100%;
+}
+
+.last-story-title h2 {
+    font-family: 'Rubik One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+
+.last-story-list {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    grid-template-areas: 
+        'first second third'
+        'first fourth fifth';
+}
+.last-story-list__item:nth-child(1) {
+    grid-area: first;
+}
+.last-story-list__item:nth-child(2) {
+   grid-area: second;
+}
+
+.last-story-list__item:nth-child(3) {
+    grid-area: third;
+}
+.last-story-list__item:nth-child(4) {
+    grid-area: fourth;
+}
+.last-story-list__item:nth-child(5) {
+    grid-area: fifth;
+}
+
+.last-story-list__item:first-child {
+    max-width: 630px;
+    max-height: 488px;
+    background: #181717;
+    height: 100%;
+}
+
+
+.last-story-card-head {
+    position: relative;
+}
+
+.last-story-card-head__link {
+    display: inline-block;
+    height: 285px;
+    max-width: 630px;
+    overflow: hidden;
+    
+}
+
+.last-story-card-head__link > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.last-story-card-head__link:hover img {
+    transform: scale(1.1);
+}
+
+
+.last-story-card-head-bottom__link {
+    display: block;
+    height: 203px;
+    padding-top: 30px;
+    margin-left: 20px;
+    
+}
+
+.last-story-card-head-bottom__wrapper h3 {
+    max-width: 405px;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+} 
+
+.last-story-card-head-bottom__wrapper p {
+    max-width: 425px;
+    max-height: 78px;
+    border-left: 4px solid #0B972A;
+    padding-left: 20px;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.last-story-card-head__category {
+    width: 145px;
+    height: 32px;
+    background-color: #252222;
+    color: #0B972A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 54%;
+}
+
+.last-story-card {
+    position: relative;
+}
+
+.last-story-card__link {
+    display: inline-block;
+    height: 136px;
+    overflow: hidden;
+
+}
+
+.last-story-card__link > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .3s ease-in-out;
+}
+
+.last-story-card__link:hover img {
+    transform: scale(1.2);
+}
+
+.last-story-card-bottom__link {
+    display: block;
+    height: 94px;
+}
+
+.last-story-card__category {
+    width: 125px;
+    height: 30px;
+    background-color: #252222;
+    color: #0B972A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 52%;
+
+}
+
+.last-story-card-head__category {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+
+.last-story-card__category {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+.last-story-list__item {
+    max-width: 300px;
+    max-height: 230px;
+    background-color: #181717;
+    height: 100%;
+
+}
+
+.last-story-card-bottom__wrapper {
+    padding-top: 25px;
+    max-width: 275px;
+    padding-left: 13px;
+}
+
+.last-story-card-bottom__wrapper h4 {
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.last-story-card-head__wrapper {
+    max-width: 445px;
+    height: 203px;
+}
+
+
+.last-story-card-head-bottom__img {
+    width: 30px;
+    height: 30px;
+    background: url("../src/static/img/icon/Vector\ 3.png") no-repeat;
+    position: absolute;
+    right: 4px;
+    top: 21px;  
+}
+
+.last-story-card-head-bottom__arrow {
+    position: absolute;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    background-color: #0B972A;
+    right: 0px;
+    bottom: 5px;
+}
+
+.last-story-card-head-bottom__img:hover {
+    right: -3px;
+}
